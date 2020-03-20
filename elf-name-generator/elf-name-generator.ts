@@ -13,8 +13,8 @@ function generateName() {
   let [surnamePrefixKey, surnamePrefixValue] = randomFromDict(prefixes);
   let [surnameSuffixKey, surnameSuffixValue] = randomFromDict(suffixes);
 
-  console.log(namePrefixKey + nameSuffixKey, surnamePrefixKey + surnameSuffixKey);
-  console.log(namePrefixValue + ',', nameSuffixValue + ';', surnamePrefixValue+ ',', surnameSuffixValue);
+  console.log(namePrefixKey + nameSuffixKey, surnamePrefixKey + surnameSuffixKey, '\n',
+    namePrefixValue + ',', nameSuffixValue + ';', surnamePrefixValue + ',', surnameSuffixValue);
 }
 
 function generateSeveralNames(times) {
