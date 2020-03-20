@@ -1,0 +1,14 @@
+{
+  "name": "misc",
+  "version": "1.0.0",
+  "scripts": {
+    "abstract-factory": "ts-node ts_patterns/abstract_factory.ts",
+    "singleton": "ts-node ts_patterns/singleton.ts",
+    "generator": "ts-node elf-name-generator/elf-name-generator.ts"
+  },
+  "devDependencies": {
+    "ts-node": "~7.0.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
